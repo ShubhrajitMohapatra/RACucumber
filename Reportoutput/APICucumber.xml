@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="2.63" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Validate all the end to end  Endpoints of SimpleBook" name="Verify the authentication to fetch accessToken." time="2.57">
+<system-out><![CDATA[
+Given Authenticate base url along with the body.............................passed
+When Execute the authenticate "/api-clients/" which provides accessToken....passed
+Then Verify the status code is 201..........................................passed
+And Verify the accessToken in the response..................................passed
+]]></system-out>
+</testcase>
+</testsuite>
